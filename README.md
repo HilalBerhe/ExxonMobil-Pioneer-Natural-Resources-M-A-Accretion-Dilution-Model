@@ -2,21 +2,23 @@
 
 ## Project Overview
 
-This project presents a comprehensive M&A accretion/dilution analysis of ExxonMobil’s acquisition of Pioneer Natural Resources.
+This project presents a comprehensive **M&A Accretion/Dilution Analysis** of ExxonMobil’s acquisition of Pioneer Natural Resources.
 
 The transaction was structured as a **100% all-stock acquisition valued at approximately $59.5 billion**. Pioneer shareholders received **2.3234 ExxonMobil shares for each Pioneer share**, implying an offer price of approximately **$253.20 per share** and a **17.8% premium** to Pioneer’s unaffected share price.
 
-The model evaluates the transaction structure, share issuance, standalone financial performance of both companies, merger synergies, pro forma earnings, EPS accretion/dilution, downside scenarios, and the strategic rationale and risks associated with the acquisition.
+The model evaluates the transaction structure, share issuance, standalone financial performance of both companies, merger synergies, pro forma earnings, EPS accretion/dilution, sensitivity scenarios, strategic rationale, and key transaction risks.
 
-The project also includes a **Power BI dashboard** summarizing the transaction and its key financial outputs.
+The project also includes a **Power BI Dashboard** that converts the key outputs of the Excel model into an executive-level visualization of the transaction and its financial impact.
 
 ---
 
 ## Model Cover
 
-![ExxonMobil Pioneer M&A Model Cover](ExxonMobil%20Cover.png)
+![ExxonMobil–Pioneer M&A Model Cover](ExxonMobil%20Cover.png)
 
 ---
+
+# Transaction Analysis
 
 ## Transaction Overview
 
@@ -34,13 +36,15 @@ The project also includes a **Power BI dashboard** summarizing the transaction a
 | New ExxonMobil Shares Issued | 545.2 Million |
 | Pioneer Shareholder Ownership | 11.9% |
 
-The acquisition was financed entirely through ExxonMobil shares rather than cash or debt. Approximately **545.2 million new ExxonMobil shares** were issued to Pioneer shareholders, resulting in former Pioneer investors owning approximately **11.9% of the combined company**.
+The acquisition was financed entirely through ExxonMobil shares rather than cash or debt.
+
+Approximately **545.2 million new ExxonMobil shares** were issued to Pioneer shareholders, resulting in former Pioneer investors owning approximately **11.9% of the combined company**.
 
 ---
 
 ## Transaction Assumptions
 
-The transaction assumptions establish the purchase consideration, exchange ratio, share issuance, ownership structure, and expected merger synergies used throughout the model.
+The Transaction Assumptions section establishes the purchase consideration, exchange ratio, share issuance, ownership structure, and expected merger synergies used throughout the model.
 
 ![ExxonMobil Transaction Assumptions Part 1](ExxonMobil%20Transaction%20Assumptions%20Part%201.png)
 
@@ -67,7 +71,7 @@ The ExxonMobil standalone forecast establishes the earnings and share-count base
 
 Historical financial results are presented for 2021 through 2023, followed by standalone projections through 2026.
 
-The forecast assumes moderate revenue growth, relatively stable pretax margins and tax rates, and continued share repurchases.
+The forecast assumes moderate annual revenue growth, relatively stable pretax margins and tax rates, and continued share repurchases.
 
 ### Key 2026E Metrics
 
@@ -99,13 +103,17 @@ The forecast reflects the commodity-driven nature of Pioneer’s business, with 
 
 # Accretion/Dilution Analysis
 
-The core analysis compares ExxonMobil’s standalone EPS with the EPS of the combined company following the acquisition.
+The core M&A analysis compares ExxonMobil’s standalone EPS with the EPS of the combined company following the acquisition.
 
-Because the transaction is financed entirely with stock, ExxonMobil must issue approximately **545.2 million new shares** to Pioneer shareholders. Pioneer’s earnings contribution and merger synergies must therefore offset the increase in ExxonMobil’s diluted share count.
+Because the transaction is financed entirely with stock, ExxonMobil must issue approximately **545.2 million new shares** to Pioneer shareholders.
+
+Pioneer’s earnings contribution and merger synergies must therefore offset the increase in ExxonMobil’s diluted share count for the transaction to be EPS-accretive.
 
 ![ExxonMobil Accretion Dilution Analysis Part 1](ExxonMobil%20Accretion%20Dilution%20Analysis%20Part%201.png)
 
 ![ExxonMobil Accretion Dilution Analysis Part 2](ExxonMobil%20Accretion%20Dilution%20Analysis%20Part%202.png)
+
+---
 
 ## Projected EPS Accretion
 
@@ -131,29 +139,31 @@ The analysis indicates that Pioneer’s underlying earnings are sufficient to of
 
 # Accretion/Dilution Sensitivity Analysis
 
-A sensitivity analysis was constructed to evaluate how changes in Pioneer’s earnings and realized merger synergies affect ExxonMobil’s projected 2026E EPS accretion.
+A sensitivity analysis was constructed to evaluate how changes in Pioneer’s earnings and realized merger synergies affect ExxonMobil’s projected **2026E EPS Accretion/(Dilution)**.
 
 The analysis tests multiple combinations of Pioneer net income and pretax synergy realization.
 
 ### Pioneer Net Income Scenarios
 
-- $4.43 Billion
-- $4.98 Billion
-- $5.53 Billion
-- $6.09 Billion
-- $6.64 Billion
+- **$4.43 Billion**
+- **$4.98 Billion**
+- **$5.53 Billion**
+- **$6.09 Billion**
+- **$6.64 Billion**
 
 ### Pretax Synergy Scenarios
 
-- $0
-- $500 Million
-- $1.0 Billion
-- $1.5 Billion
-- $2.0 Billion
+- **$0**
+- **$500 Million**
+- **$1.0 Billion**
+- **$1.5 Billion**
+- **$2.0 Billion**
 
 ![ExxonMobil Accretion Dilution Sensitivity Part 1](ExxonMobil%20Accretion%20Dilution%20Sensitivity%20Part%201.png)
 
 ![ExxonMobil Accretion Dilution Sensitivity Part 2](ExxonMobil%20Accretion%20Dilution%20Sensitivity%20Part%202.png)
+
+---
 
 ## Sensitivity Results
 
@@ -175,7 +185,7 @@ This demonstrates that Pioneer’s standalone earnings are the primary driver of
 
 # Executive Summary
 
-The executive summary consolidates the transaction structure, accretion/dilution forecast, sensitivity analysis, strategic rationale, key risks, and overall deal conclusion.
+The Executive Summary consolidates the transaction structure, accretion/dilution forecast, sensitivity analysis, strategic rationale, key risks, and overall deal conclusion.
 
 ![ExxonMobil Executive Summary Part 1](ExxonMobil%20Executive%20Summary%201%20Part%201.png)
 
@@ -220,7 +230,9 @@ If Pioneer’s future earnings materially underperform expectations, the transac
 
 ## Valuation Risk
 
-EPS accretion does not necessarily mean ExxonMobil received more economic value than it paid for Pioneer. Long-term value creation ultimately depends on operating performance, commodity prices, integration execution, and capital returns.
+EPS accretion does not necessarily mean ExxonMobil received more economic value than it paid for Pioneer.
+
+Long-term value creation ultimately depends on operating performance, commodity prices, integration execution, synergy realization, and capital returns.
 
 ---
 
@@ -232,89 +244,188 @@ The 2026E base case produces approximately **1.79% EPS accretion**.
 
 Pioneer’s underlying earnings are the primary driver of transaction accretion, while merger synergies provide additional upside and downside protection.
 
-The sensitivity analysis indicates that the transaction remains slightly accretive at base Pioneer earnings even without synergies. However, if Pioneer materially underperforms, ExxonMobil’s ability to achieve its projected cost and operational synergies becomes increasingly important.
+The sensitivity analysis indicates that the transaction remains slightly accretive at base Pioneer earnings even without synergies.
 
-Overall, the acquisition has the potential to increase ExxonMobil’s EPS while significantly expanding its Permian Basin position. The ultimate value of the transaction will depend on commodity prices, Pioneer’s future operating performance, successful integration, and ExxonMobil’s ability to realize its targeted synergies.
+However, if Pioneer materially underperforms, ExxonMobil’s ability to achieve its projected cost and operational synergies becomes increasingly important.
+
+Overall, the acquisition has the potential to increase ExxonMobil’s EPS while significantly expanding its Permian Basin position.
+
+The ultimate value of the transaction will depend on commodity prices, Pioneer’s future operating performance, successful integration, and ExxonMobil’s ability to realize its targeted operational and cost synergies.
 
 ---
 
 # Power BI Dashboard
 
-In addition to the Excel financial model, a **Power BI dashboard** was developed to present the transaction and financial analysis visually.
+In addition to the Excel M&A model, a **Power BI Dashboard** was developed to transform the underlying financial analysis into an executive-level visual presentation.
 
-The dashboard summarizes the major deal terms and provides visual analysis of the acquisition’s financial impact.
+The dashboard contains two primary pages:
 
-## Acquisition Overview
+1. **ExxonMobil–Pioneer Acquisition Overview**
+2. **Financial Impact & Accretion/Dilution**
 
-The first dashboard page presents key transaction information, including:
+---
 
-- Announced Equity Value
-- Implied Offer Price
-- Pro Forma ExxonMobil Shares
-- Long-Term Annual Synergies
-- Share Issuance
-- Core Deal Terms
+## ExxonMobil–Pioneer Acquisition Overview
+
+The first Power BI dashboard page summarizes the major transaction terms and acquisition assumptions.
+
+The dashboard includes:
+
+- **Announced Equity Value**
+- **Implied Offer Price**
+- **Share Issuance**
+- **Pro Forma ExxonMobil Shares**
+- **Long-Term Annual Synergies**
+- **Key Deal Terms**
+
+This page provides a concise visual summary of the transaction structure and the major assumptions underlying the M&A model.
+
+---
 
 ## Financial Impact & Accretion/Dilution
 
-The second dashboard page includes:
+The second Power BI dashboard page evaluates the financial impact of the Pioneer acquisition on ExxonMobil.
 
-- Standalone EPS vs. Pro Forma EPS
-- Projected EPS Accretion Trend
-- Projected Synergy Ramp
-- Pretax vs. After-Tax Synergies
-- 2026E EPS Accretion/Dilution Sensitivity
-- Pioneer Net Income Scenario Analysis
+The dashboard includes:
 
-### Power BI Report
+- **Standalone EPS vs. Pro Forma EPS**
+- **Projected EPS Accretion Trend**
+- **Projected Synergy Ramp**
+- **Pretax Synergies vs. After-Tax Synergies**
+- **2026E EPS Accretion/(Dilution) Sensitivity**
+- **Pioneer Net Income Scenario Analysis**
+- **Multiple Synergy Realization Scenarios**
 
-[View the Power BI Dashboard](ExxonMobil-Power-BI-Dashboard.pdf)
+### EPS Analysis
+
+The Power BI dashboard compares ExxonMobil’s standalone EPS with its projected pro forma EPS following the Pioneer acquisition.
+
+| Period | Standalone EPS | Pro Forma EPS |
+|---|---:|---:|
+| 2024E | $9.2 | $9.5 |
+| 2025E | $9.6 | $9.8 |
+| 2026E | $10.0 | $10.2 |
+
+The dashboard illustrates that pro forma EPS remains above ExxonMobil’s standalone EPS throughout the forecast period.
+
+---
+
+## Projected EPS Accretion Trend
+
+The Power BI dashboard visualizes the projected EPS accretion generated by the transaction across the forecast period.
+
+- **2024E:** Approximately 2.97%
+- **2025E:** Approximately 2.26%
+- **2026E:** Approximately 1.79%
+
+The declining accretion trend primarily reflects changes in the standalone earnings forecasts of ExxonMobil and Pioneer, as well as the impact of the additional shares issued in the transaction.
+
+---
+
+## Projected Synergy Ramp
+
+The dashboard also visualizes the expected realization of merger synergies.
+
+### 2025E
+
+- **Pretax Synergies:** $500 Million
+- **After-Tax Synergies:** Approximately $354 Million
+
+### 2026E
+
+- **Pretax Synergies:** $1.0 Billion
+- **After-Tax Synergies:** Approximately $708 Million
+
+This illustrates how the gradual realization of transaction synergies contributes additional earnings to the combined company.
+
+---
+
+## 2026E EPS Accretion/Dilution Sensitivity
+
+The Power BI dashboard includes a sensitivity matrix showing how different levels of Pioneer net income and merger synergies affect ExxonMobil’s projected 2026E EPS.
+
+The matrix evaluates Pioneer net income from approximately **$4.43 billion to $6.64 billion** against pretax synergy scenarios ranging from **$0 to $2.0 billion**.
+
+This visualization highlights the relationship between Pioneer’s operating performance, merger synergy realization, and the ultimate EPS impact of the acquisition.
+
+---
+
+## Power BI Report
+
+[View the ExxonMobil–Pioneer Power BI Dashboard](ExxonMobil-Pioneer-Power-BI-Dashboard.pdf)
 
 ---
 
 # Model Files
 
-### Excel Financial Model
+## Excel Financial Model
+
+The Excel workbook contains the complete transaction analysis, standalone forecasts, accretion/dilution model, sensitivity analysis, and executive summary.
 
 [Download the Excel M&A Model](ExxonMobil-Pioneer-MA-Accretion-Dilution-Model.xlsx)
 
-### Power BI Dashboard
+## Power BI Dashboard
 
-[View the Power BI Dashboard](ExxonMobil-Power-BI-Dashboard.pdf)
+The Power BI report provides a visual summary of the transaction assumptions and the acquisition’s projected financial impact.
+
+[View the Power BI Dashboard](ExxonMobil-Pioneer-Power-BI-Dashboard.pdf)
 
 ---
 
 # Skills Demonstrated
 
-- M&A Modeling
-- Accretion/Dilution Analysis
-- Financial Statement Analysis
-- Transaction Modeling
-- All-Stock Acquisition Modeling
-- Share Issuance Analysis
-- Pro Forma Financial Analysis
-- Pro Forma EPS Analysis
-- Synergy Modeling
-- Sensitivity Analysis
-- Scenario Analysis
-- Financial Forecasting
-- Excel Financial Modeling
-- Power BI
-- Data Visualization
-- Executive Financial Reporting
+- **M&A Modeling**
+- **Accretion/Dilution Analysis**
+- **Financial Statement Analysis**
+- **Transaction Modeling**
+- **All-Stock Acquisition Modeling**
+- **Share Issuance Analysis**
+- **Pro Forma Financial Analysis**
+- **Pro Forma EPS Analysis**
+- **Synergy Modeling**
+- **Sensitivity Analysis**
+- **Scenario Analysis**
+- **Financial Forecasting**
+- **Excel Financial Modeling**
+- **Power BI**
+- **Data Visualization**
+- **Executive Financial Reporting**
 
 ---
 
 # Tools Used
 
-- Microsoft Excel
-- Microsoft Power BI
-- Financial Statement Analysis
-- M&A Accretion/Dilution Modeling
-- Sensitivity and Scenario Analysis
+- **Microsoft Excel**
+- **Microsoft Power BI**
+- **Financial Statement Analysis**
+- **M&A Accretion/Dilution Modeling**
+- **Sensitivity Analysis**
+- **Scenario Analysis**
+- **Financial Forecasting**
+
+---
+
+# Project Files
+
+- `ExxonMobil-Pioneer-MA-Accretion-Dilution-Model.xlsx`
+- `ExxonMobil-Pioneer-Power-BI-Dashboard.pdf`
+- `ExxonMobil Cover.png`
+- `ExxonMobil Transaction Assumptions Part 1.png`
+- `ExxonMobil Transaction Assumptions Part 2.png`
+- `ExxonMobil Financials.png`
+- `ExxonMobil Pioneer Financials.png`
+- `ExxonMobil Accretion Dilution Analysis Part 1.png`
+- `ExxonMobil Accretion Dilution Analysis Part 2.png`
+- `ExxonMobil Accretion Dilution Sensitivity Part 1.png`
+- `ExxonMobil Accretion Dilution Sensitivity Part 2.png`
+- `ExxonMobil Executive Summary 1 Part 1.png`
+- `ExxonMobil Executive Summary 1 Part 2.png`
+- `ExxonMobil Executive Summary 2.png`
 
 ---
 
 ## Disclaimer
 
-This project was created for educational and portfolio purposes. The analysis is based on publicly available transaction information and model assumptions and should not be considered investment advice.
+This project was created for **educational and portfolio purposes**.
+
+The analysis is based on publicly available transaction information and financial modeling assumptions and should not be considered investment advice.
